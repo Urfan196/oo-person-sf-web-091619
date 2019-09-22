@@ -39,7 +39,7 @@ end
 def work_out
   @happiness += 2
   @hygiene -= 3
-  return "♪ another one bites the dust ♫"
+   "♪ another one bites the dust ♫"
 end
 
 end
