@@ -31,4 +31,9 @@ def get_paid (salary)
   "all about the benjamins"
 end
 
+def take_bath
+  @hygiene += 4
+  "♪ Rub-a-dub just relaxing in the tub ♫"
+end
+
 end
