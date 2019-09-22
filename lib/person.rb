@@ -49,9 +49,9 @@ def call_friend (friend)
 end
 
 def start_conversation (person, topic)
-  if topic == politics
+  if topic == 'politics'
     "blah blah partisan blah lobbyist"
-  elsif topic == weather
+  elsif topic == 'weather'
     "blah blah sun blah rain"
   else
     "blah blah blah blah blah"
