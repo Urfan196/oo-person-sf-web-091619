@@ -42,4 +42,8 @@ def work_out
    "♪ another one bites the dust ♫"
 end
 
+def call_friend (friend)
+
+end
+
 end
