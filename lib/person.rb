@@ -3,10 +3,10 @@ class Person
   attr_reader :name
   attr_accessor :bank_account, :happiness, :hygiene
 
-def initialize(name)
+def initialize(name, @happiness = 8)
   @name = name
   @bank_account = 25
-  @happiness = 8
+  @happiness = happiness
   @hygiene = 8
 end
 
