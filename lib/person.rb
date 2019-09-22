@@ -18,4 +18,12 @@ def hygiene=(hygiene)
 @hygiene = hygiene.clamp(0,10)
 end
 
+def clean?
+  @hygiene > 7 ? true : false
+end
+
+def happy?
+  @happiness > 7 ? true : false
+end
+
 end
