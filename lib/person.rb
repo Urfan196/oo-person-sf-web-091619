@@ -50,6 +50,7 @@ end
 
 def start_conversation (person, topic)
   if topic == 'politics'
+    person.happiness -= 2
     "blah blah partisan blah lobbyist"
   elsif topic == 'weather'
     "blah blah sun blah rain"
